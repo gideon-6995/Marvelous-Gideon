@@ -415,6 +415,29 @@ header {
 
 
 /* CONTACT */
+/* Contact Section Links & Icons */
+.contact-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link i {
+    font-size: 1.2rem;
+    margin-right: 6px;
+}
+
+.contact-link.whatsapp i {
+    color: #25D366; /* Official WhatsApp Green */
+}
+
+.contact-link.facebook i {
+    color: #1877F2; /* Official Facebook Blue */
+}
+
+.contact-link:hover {
+    color: #d4e157; /* Accent yellow hover color */
+}
 
 .contact {
     max-width: none;
