@@ -187,6 +187,78 @@ header {
 
 
 /* ABOUT */
+/* CV Buttons - Gideon's Portfolio */
+.cv-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.cv-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Yellow View CV button */
+.cv-buttons a:first-child {
+    background: #f1d547;
+    color: #17213b;
+    border-color: #f1d547;
+}
+
+/* Red Download CV button */
+.cv-buttons a:last-child {
+    background: #d9535f;
+    color: #ffffff;
+    border-color: #d9535f;
+}
+
+/* Hover effects */
+.cv-buttons a:first-child:hover {
+    background: transparent;
+    color: #f1d547;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(241, 213, 71, 0.2);
+}
+
+.cv-buttons a:last-child:hover {
+    background: transparent;
+    color: #ff727d;
+    border-color: #ff727d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(217, 83, 95, 0.2);
+}
+
+/* Keyboard accessibility */
+.cv-buttons a:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .cv-buttons {
+        gap: 12px;
+    }
+
+    .cv-buttons a {
+        padding: 12px 17px;
+        font-size: 14px;
+    }
+}
 
 .about-content {
     display: flex;
