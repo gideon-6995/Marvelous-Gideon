@@ -132,12 +132,12 @@ header {
 }
 
 .btn.secondary {
-    background: #c62828;
+    background: #fa0606;
     color: #ffffff;
 }
 
 .btn.secondary:hover {
-    background: #e53935;
+    background: #9e0603;
 }
 
 .profile-image {
@@ -200,7 +200,8 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 9px;
+    gap: 12px;
+    margin-bottom: 25px;
     padding: 13px 24px;
     border-radius: 8px;
     font-size: 15px;
@@ -214,16 +215,16 @@ header {
 
 /* Yellow View CV button */
 .cv-buttons a:first-child {
-    background: #f1d547;
+    background: #fad000;
     color: #17213b;
-    border-color: #f1d547;
+    border-color: #f5cc00;
 }
 
 /* Red Download CV button */
 .cv-buttons a:last-child {
-    background: #d9535f;
+    background: #ff071b;
     color: #ffffff;
-    border-color: #d9535f;
+    border-color: #9c0511;
 }
 
 /* Hover effects */
@@ -236,8 +237,8 @@ header {
 
 .cv-buttons a:last-child:hover {
     background: transparent;
-    color: #ff727d;
-    border-color: #ff727d;
+    color: #ce0213;
+    border-color: #eb0014;
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(217, 83, 95, 0.2);
 }
