@@ -591,3 +591,24 @@ footer p {
         text-align: center;
     }
 }
+.flowing-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.flowing-text {
+  display: inline-block;
+  font-weight: 800;
+  color: #e3fc00; /* Matches your accent yellow */
+  animation: flowText 10s linear infinite;
+}
+
+@keyframes flowText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
